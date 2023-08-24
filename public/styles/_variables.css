@@ -1,0 +1,11 @@
+:root {
+    /* Colors */
+    --primary: #ff6600;
+    --secondary: #c13b00;
+    --accent: #5e6d70;
+    --dark: #1b1d1d;
+    --light: #e4e6e7;
+
+    --dark-300: hsl(180 11% 70%);
+    --dark-800: hsl(180 11% 30%);
+}
