@@ -35,16 +35,16 @@ clearButton.addEventListener("click", () => {
 });
 
 delButton.addEventListener("click", () => {
-    currentInput = currentInput.slice(0, -1);
-    calcOutput.value = currentInput;
-})
+	currentInput = currentInput.slice(0, -1);
+	calcOutput.value = currentInput;
+});
 
 realButton.addEventListener("click", () => {
-    if (currentInput !== '') {
-        currentInput = parseFloat(currentInput) * -1;
-        calcOutput.value = currentInput;
-    }
-})
+	if (currentInput !== "") {
+		currentInput = parseFloat(currentInput) * -1;
+		calcOutput.value = currentInput;
+	}
+});
 
 calcButton.addEventListener("click", () => {
 	if (operator && currentInput !== "") {
@@ -61,7 +61,7 @@ calcButton.addEventListener("click", () => {
 			case "x":
 				result = firstOperand * secondOperand;
 				break;
-			case "%":
+			case "÷":
 				result = firstOperand / secondOperand;
 				break;
 		}
